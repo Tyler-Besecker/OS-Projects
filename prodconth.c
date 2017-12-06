@@ -2,14 +2,6 @@
 //Autor: Tyler Besecker
 //Date: 11/07/2017
 //Program Mutiple consumer/producer
-//Programming Assignment: 4
-//The problem being solved is creating a mutiple producer consumer using
-//threads, mutex, and conditonal variable
-//The overall flow of this program: the program declares all needed variables,
-//the producer produces as long as the buffer isnt full and we are under
-// 100 total numbers. The consumer consumes as long as the buffer isn't empty
-//and we haven't consumed 100 total numbers
-//I have tested my code and it contains no errors for output.
 
 #include <stdio.h> 
 #include <stdlib.h> 
